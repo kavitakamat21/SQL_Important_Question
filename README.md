@@ -106,6 +106,24 @@ By practicing these 50 SQL queries, you will master:
 - How to clone and intersect tables
 - How to fetch nth highest salary (a very common interview question!)
 
+## ☑️ Some important topic explain :-
+  ### ♦ self join
+  
+  What is a Self Join?
+  
+  A self join is when a table is joined with itself. Useful when comparing rows in the same table (e.g., finding employees with the same salary, managers vs employees, etc.).
+  You must use table aliases (e1, e2) to differentiate between the two instances.
+
+ ### Syntax :-
+ 
+table_name e1 → first instance of the table. 
+
+table_name e2 → second instance of the same table.
+
+ON e1.common_field = e2.common_field → join condition.
+
+WHERE e1.id <> e2.id → avoids matching the row with itself.
+
 
 
 ## ✅ Conclusion
@@ -118,7 +136,10 @@ This project was built to serve as a comprehensive SQL practice guide with 50 re
 - The skills to solve common SQL problems like Nth highest salary, duplicate detection, top-N queries, and department-wise analysis.
 
 
+## 📬 Contact
+👩‍💻 Author: Kavita Kamat
 
+📧 Email: kavitakamat22@gmail.com
 
 
 
